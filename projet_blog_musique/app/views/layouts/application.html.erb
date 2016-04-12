@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ProjetBlogMusique</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body data-spy="scroll" data-target=".navbar">
+  <div class="container-fluid contenent">
+  	<div class="filter">
+    	<div id="user_nav" class="nav-user">
+        <%if user_signed_in? %>
+          Connect as <%= current_user.email %>. not you ?
+          <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
+    			<a class="lay-article" href="/articles">List of articles</a>
+        <% else %>
+          <%= link_to "Sign up", new_user_registration_path %> or <%= link_to "Log in", new_user_session_path %>
+        <% end %>
+      </div>
+      <%= yield %>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<h1 class="title-article"><%= @article.title %></h1>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<p class="content-article"><%= @article.content %></p>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 actions">
+					<%= form_tag "/articles/#{@article.id}", method: "patch" do %>
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		        	<input class="al-edit" type="text" name="title" value="<%= @article.title %>">
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		        	<textarea class="al-edit" name="content" rows="7" cols="30"><%= @article.content %></textarea>
+						</div>
+						<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+		        	<input class="al-edit" type="submit" value="Edit article">
+						</div>
+		      <% end %>
+					<%= form_tag "/articles/#{@article.id}", method: "delete" do %>
+						<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+	  					<input class="al-edit" type="submit" value="Destroy">
+						</div>
+					<% end %>
+			</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 top_border">
+				<div class="col-xs-2 col-sm-2 col-md-1 col-lg-1 al-link">
+					<a class="link-article" href="#" onClick="history.go(-1)">Back</a>
+				</div>
+				<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 al-link">
+					<a class="link-article" href="/">Home page</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<%= javascript_include_tag "addheight.js" %>
