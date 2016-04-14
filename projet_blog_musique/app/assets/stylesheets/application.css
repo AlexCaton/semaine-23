@@ -48,7 +48,7 @@ ul {
 /*----#HOMPAGE----*/
 .menus {
 	margin-top: 80px;
-	margin-left: 445px;
+  text-align: center;
 }
 .navbar-nav li a {
 	margin-left: 20px;
@@ -176,12 +176,15 @@ ul {
 	font-weight: 700;
 	color: #fff;
 }
-.contenugig {
+.contenugig  {
 	padding-top: 21px;
 	padding-bottom: 14px;
 	padding-left: 15px;
 
 	border-top: 1px solid #5c5c5c;
+}
+.contenugigend {
+  border-bottom: 1px solid #5c5c5c;
 }
 .col-md-1 {
 	width: 13%;
@@ -295,16 +298,16 @@ ul {
 	padding-bottom: 120px;
 
 	border-top: 1px solid #5c5c5c;
+
+  text-align: center;
 }
 .icon-rs {
 	display: inline-block;
 	vertical-align: top;
 	position: relative;
-	left: 435px;
 	margin-right: 35px;
 
   font-size: 27px;
-	text-align: center;
 }
 .icon-rs a:visited, .icon-rs a:link {
 	color: #fff;
@@ -458,41 +461,852 @@ ul {
 
   color: #fff;
 }
-/*----#media----*/
-/*----#screen_1366----*/
-@media (min-width: 1282px) and (max-width:1367px) {
+/*----#media------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----#screen_320x480---------------------------------------------------------------------------*/
+@media (min-width: 300px) and (max-width:400px) {
+  .nav-user, .nav-user a:link, .nav-user a:visited {
+    font-size: 10px;
+  }
   .menus {
-    margin-top: 75px;
-    margin-left: 330px;
+    margin-top: 0;
+    margin-left: 0;
   }
   .navbar-nav li a {
-    margin-left: 6px;
+    margin-left: -5px;
+    font-size: 10px;
+  }
+  .title {
+    top: 100px;
+    font-size: 370%;
+  }
+  .subtitle {
+    top: 105px;
+    font-size: 100%;
+  }
+  .titlevid {
+    font-size: 15px;
+  }
+  .titleallvid {
+    margin-right: 10px;
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+  .underscore {
+    top: -5px;
+    font-size: 14px;
+  }
+  .subtitlevid {
+    margin-top: 14px;
+    margin-bottom: 0;
+    font-size: 12px;
+  }
+  .like, .big, .waiting {
+    padding: 12px;
+    width: 100%;
+  }
+  .big, .waiting {
+    border-top: 0;
+  }
+  .like, .big {
+    border-right: 0;
+  }
+  .titregig {
+    font-size: 12px;
+  }
+  .contenugig {
+    padding-top: 6px;
+    padding-bottom: 5px;
+  }
+  .number, .numberoct {
+    margin-left: 7px;
+    font-size: 12px;
+  }
+  .city, .scene, .month {
+    width: 100%;
+    font-size: 10px;
+    text-align: center;
+  }
+  .view {
+    margin-top: 12px;
+    margin-bottom: 50px;
+  }
+  .view a:link {
+    font-size: 8px;
+  }
+  .titleob, .titlevol {
+    letter-spacing: 1px;
+  }
+  .titleob, .titlevol, .subtitlerp {
+    font-size: 12px;
+  }
+  .subdate {
+    margin-bottom: 10px;
+    font-size: 8px;
+  }
+  .messageob {
+    margin-right: 10px;
+    font-size: 12px;
+  }
+  .contenentrs {
+    padding-top: 15px;
+    padding-bottom: 35px;
+  }
+  .icon-rs {
+    margin-right: 7px;
+    font-size: 12px;
+  }
+  .titlefooter {
+    font-size: 7px;
+    margin-top: 22px;
+  }
+  .contenentob {
+    padding-bottom: 35px;
+  }
+  .content-article {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .title-article {
+    font-size: 21px;
+  }
+  .articles, .articles:hover, .articles:visited {
+    font-size: 17px;
+  }
+}
+/*----#screen_480x800---------------------------------------------------------------------------*/
+@media (min-width: 401px) and (max-width:500px) {
+  .nav-user, .nav-user a:link, .nav-user a:visited {
+    font-size: 13px;
+  }
+  .menus {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .navbar-nav li a {
+    margin-left: -5px;
     font-size: 12px;
   }
   .title {
-    top: 158px;
-    font-size: 445%;
+    top: 130px;
+    font-size: 375%;
   }
   .subtitle {
-    top: 158px;
-    font-size: 130%;
+    top: 125px;
+    font-size: 105%;
+  }
+  .titlevid {
+    font-size: 15px;
+  }
+  .titleallvid {
+    margin-right: 10px;
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+  .underscore {
+    top: -5px;
+    font-size: 14px;
+  }
+  .subtitlevid {
+    margin-top: 14px;
+    margin-bottom: 0;
+    font-size: 15px;
+  }
+  .like, .big, .waiting {
+    padding: 25px;
+    width: 100%;
+  }
+  .big, .waiting {
+    border-top: 0;
+  }
+  .like, .big {
+    border-right: 0;
+  }
+  .col-md-1 {
+    width: 15%;
+  }
+  .titregig {
+    font-size: 15px;
+  }
+  .contenugig {
+    padding-top: 12px;
+    padding-bottom: 10px;
+  }
+  .month {
+    font-size: 13px;
+  }
+  .number, .numberoct {
+    margin-left: 6px;
+    font-size: 15px;
+  }
+  .city, .scene {
+    font-size: 13px;
+    text-align: center;
+  }
+  .view {
+    margin-top: 15px;
+    margin-bottom: 50px;
+  }
+  .view a:link {
+    font-size: 10px;
+  }
+  .titleob, .titlevol {
+    letter-spacing: 1px;
+  }
+  .titleob, .titlevol, .subtitlerp {
+    font-size: 15px;
+  }
+  .subdate {
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+  .messageob {
+    margin-right: 10px;
+    font-size: 15px;
+  }
+  .contenentrs {
+    padding-top: 15px;
+    padding-bottom: 35px;
+  }
+  .icon-rs {
+    margin-right: 16px;
+    font-size: 13px;
+  }
+  .titlefooter {
+    font-size: 10px;
+    margin-top: 22px;
+  }
+  .contenentob {
+    padding-bottom: 35px;
+  }
+  .content-article {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .title-article {
+    font-size: 21px;
+  }
+  .articles, .articles:hover, .articles:visited {
+    font-size: 17px;
+  }
+}
+/*----#screen_640x960---------------------------------------------------------------------------*/
+@media (min-width: 501px) and (max-width:700px) {
+  .nav-user, .nav-user a:link, .nav-user a:visited {
+    font-size: 13px;
+  }
+  .menus {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .navbar-nav li a {
+    margin-left: -5px;
+    font-size: 12px;
+  }
+  .title {
+    top: 130px;
+    font-size: 375%;
+  }
+  .subtitle {
+    top: 125px;
+    font-size: 105%;
+  }
+  .titlevid {
+    font-size: 15px;
+  }
+  .titleallvid {
+    margin-right: 10px;
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+  .underscore {
+    top: -7px;
+    font-size: 20px;
+  }
+  .subtitlevid {
+    margin-top: 14px;
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+  .like, .big, .waiting {
+    padding: 25px;
+    width: 100%;
+  }
+  .big, .waiting {
+    border-top: 0;
+  }
+  .like, .big {
+    border-right: 0;
+  }
+  .col-md-1 {
+    width: 15%;
+  }
+  .titregig {
+    font-size: 15px;
+  }
+  .contenugig {
+    padding-top: 12px;
+    padding-bottom: 10px;
+  }
+  .month {
+    font-size: 13px;
+  }
+  .number, .numberoct {
+    margin-left: 12px;
+    font-size: 15px;
+  }
+  .city, .scene {
+    font-size: 13px;
+    text-align: center;
+  }
+  .view {
+    margin-top: 15px;
+    margin-bottom: 65px;
+  }
+  .view a:link {
+    font-size: 10px;
+  }
+  .titleob, .titlevol {
+    letter-spacing: 1px;
+  }
+  .titleob, .titlevol, .subtitlerp {
+    font-size: 15px;
+  }
+  .subdate {
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+  .messageob {
+    margin-right: 10px;
+    font-size: 15px;
+  }
+  .contenentrs {
+    padding-top: 15px;
+    padding-bottom: 35px;
+  }
+  .icon-rs {
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  .titlefooter {
+    font-size: 12px;
+    margin-top: 22px;
+  }
+  .contenentob {
+    padding-bottom: 35px;
+  }
+  .content-article {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .title-article {
+    font-size: 21px;
+  }
+  .articles, .articles:hover, .articles:visited {
+    font-size: 17px;
+  }
+}
+/*----#screen_720x1280---------------------------------------------------------------------------*/
+@media (min-width: 701px) and (max-width:750px) {
+  .nav-user, .nav-user a:link, .nav-user a:visited {
+    font-size: 14px;
+  }
+  .menus {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .navbar-nav li a {
+    margin-left: -5px;
+    font-size: 12px;
+  }
+  .title {
+    top: 130px;
+    font-size: 375%;
+  }
+  .subtitle {
+    top: 125px;
+    font-size: 105%;
+  }
+  .titlevid {
+    font-size: 18px;
+  }
+  .titleallvid {
+    margin-right: 10px;
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+  .underscore {
+    top: -7px;
+    font-size: 20px;
+  }
+  .subtitlevid {
+    margin-top: 14px;
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+  .like, .big, .waiting {
+    padding: 25px;
+    width: 100%;
+  }
+  .big, .waiting {
+    border-top: 0;
+  }
+  .like, .big {
+    border-right: 0;
+  }
+  .col-md-1 {
+    width: 15%;
+  }
+  .titregig {
+    font-size: 17px;
+  }
+  .contenugig {
+    padding-top: 12px;
+    padding-bottom: 10px;
+  }
+  .month {
+    font-size: 15px;
+  }
+  .number, .numberoct {
+    font-size: 17px;
+  }
+  .city, .scene {
+    font-size: 15px;
+    text-align: center;
+  }
+  .view {
+    margin-top: 15px;
+    margin-bottom: 65px;
+  }
+  .view a:link {
+    font-size: 12px;
+  }
+  .titleob, .titlevol {
+    letter-spacing: 1px;
+  }
+  .titleob, .titlevol, .subtitlerp {
+    font-size: 15px;
+  }
+  .marg-query {
+    padding-left: 15px;
+  }
+  .subdate {
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+  .messageob {
+    margin-right: 10px;
+    font-size: 15px;
+  }
+  .contenentrs {
+    padding-top: 15px;
+    padding-bottom: 35px;
+  }
+  .icon-rs {
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  .titlefooter {
+    font-size: 12px;
+    margin-top: 22px;
+  }
+  .contenentob {
+    padding-bottom: 35px;
+  }
+  .content-article {
+    padding-top: 135px;
+    padding-bottom: 135px;
+  }
+  .title-article {
+    font-size: 16px;
+  }
+  .articles, .articles:hover, .articles:visited {
+    font-size: 13px;
+  }
+}
+/*----#screen_768x1024---------------------------------------------------------------------*/
+@media (min-width: 751px) and (max-width:780px) {
+  .nav-user, .nav-user a:link, .nav-user a:visited {
+  	font-size: 15px;
+  }
+  .menus {
+    margin-top: 240px;
+    margin-left: -80px;
+  }
+  .navbar-nav li a {
+    margin-left: -5px;
+    font-size: 12px;
+  }
+  .title {
+    top: 130px;
+    font-size: 375%;
+  }
+  .subtitle {
+    top: 125px;
+    font-size: 105%;
+  }
+  .titlevid {
+    font-size: 18px;
+  }
+  .titleallvid {
+    margin-right: 10px;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  .underscore {
+    top: -5px;
+    font-size: 17px;
+  }
+  .subtitlevid {
+    margin-bottom: 12px;
+    font-size: 10px;
+  }
+  .like, .big, .waiting {
+    padding-top: 12px;
+  }
+  .like {
+    width: 32%;
+    padding-right: 12px;
+  }
+  .big {
+    width: 34%;
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+  .waiting {
+    width: 31.9%;
+    padding-left: 12px;
+  }
+  .col-md-1 {
+    width: 15%;
+  }
+  .titregig {
+    font-size: 17px;
+  }
+  .contenugig {
+    padding-top: 12px;
+    padding-bottom: 10px;
+  }
+  .month {
+    font-size: 15px;
+  }
+  .number, .numberoct {
+    font-size: 17px;
+  }
+  .city, .scene {
+    font-size: 15px;
+  }
+  .view {
+    margin-top: 15px;
+    margin-bottom: 65px;
+  }
+  .view a:link {
+    font-size: 12px;
+  }
+  .titleob, .titlevol {
+    letter-spacing: 1px;
+  }
+  .titleob, .titlevol, .subtitlerp {
+    font-size: 15px;
+  }
+  .marg-query {
+    padding-left: 15px;
+  }
+  .subdate {
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+  .messageob {
+    margin-right: 10px;
+    font-size: 15px;
+  }
+  .contenentrs {
+    padding-top: 15px;
+    padding-bottom: 35px;
+  }
+  .icon-rs {
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  .titlefooter {
+    font-size: 12px;
+    margin-top: 22px;
+  }
+  .contenentob {
+    padding-bottom: 35px;
+  }
+  .content-article {
+    padding-top: 135px;
+    padding-bottom: 135px;
+  }
+  .title-article {
+    font-size: 16px;
+  }
+  .articles, .articles:hover, .articles:visited {
+    font-size: 13px;
+  }
+}
+/*----#screen_1024x768--------------------------------------------------------------------------*/
+@media (min-width: 781px) and (max-width:1150px) {
+  .menus {
+    margin-top: 120px;
+    margin-left: -25px;
+  }
+  .navbar-nav li a {
+    margin-left: -5px;
+    font-size: 12px;
+  }
+  .title {
+    top: 130px;
+    font-size: 375%;
+  }
+  .subtitle {
+    top: 125px;
+    font-size: 105%;
+  }
+  .titlevid {
+    font-size: 18px;
+  }
+  .titleallvid {
+    margin-right: 10px;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  .underscore {
+    top: -7px;
+    font-size: 30px;
+  }
+  .subtitlevid {
+    font-size: 13px;
+  }
+  .like, .big, .waiting {
+    padding-top: 15px;
+  }
+  .like {
+    width: 32%;
+    padding-right: 15px;
+  }
+  .big {
+    width: 33.8%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .waiting {
+    width: 31.9%;
+    padding-left: 15px;
+  }
+  .col-md-1 {
+    width: 15%;
+  }
+  .titregig {
+    font-size: 18px;
+  }
+  .contenugig {
+    padding-top: 12px;
+    padding-bottom: 10px;
+  }
+  .month {
+    font-size: 15px;
+  }
+  .number, .numberoct {
+    font-size: 20px;
+  }
+  .city, .scene {
+    font-size: 16px;
+  }
+  .view {
+    margin-top: 15px;
+    margin-bottom: 65px;
+  }
+  .view a:link {
+    font-size: 12px;
+  }
+  .titleob, .titlevol {
+    letter-spacing: 1px;
+  }
+  .titleob, .titlevol, .subtitlerp {
+    font-size: 16px;
+  }
+  .marg-query {
+    padding-left: 20px;
+  }
+  .subdate {
+    margin-bottom: 16px;
+    font-size: 12px;
+  }
+  .messageob {
+    margin-right: 10px;
+    font-size: 15px;
+  }
+  .contenentrs {
+    padding-top: 30px;
+    padding-bottom: 70px;
+  }
+  .icon-rs {
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  .titlefooter {
+    font-size: 12px;
+    margin-top: 45px;
+  }
+  .contenentob {
+    padding-bottom: 70px;
+  }
+  .content-article {
+    padding-top: 135px;
+    padding-bottom: 135px;
+  }
+  .title-article {
+    font-size: 32px;
+  }
+  .articles, .articles:hover, .articles:visited {
+    font-size: 27px;
+  }
+}
+/*----#screen_1200x800------------------------------------------------------------------------------------*/
+@media (min-width: 1151px) and (max-width:1250px) {
+  .menus {
+    margin-top: 120px;
+    margin-left: 10px;
+  }
+  .navbar-nav li a {
+    margin-left: -5px;
+    font-size: 12px;
+  }
+  .title {
+    top: 130px;
+    font-size: 375%;
+  }
+  .subtitle {
+    top: 125px;
+    font-size: 105%;
   }
   .titlevid {
     font-size: 20px;
   }
   .titleallvid {
-    margin-right: 0;
+    margin-right: 7px;
     font-size: 12px;
     letter-spacing: 1px;
   }
   .subtitlevid {
     font-size: 16px;
   }
+  .like {
+    width: 32.2%;
+  }
   .big {
-    width: 34.8%;
+    width: 34.7%;
   }
   .waiting {
-    width: 32.4%;
+    width: 32.1%;
+  }
+  .col-md-1 {
+    width: 14%;
+  }
+  .titregig {
+    font-size: 20px;
+  }
+  .contenugig {
+    padding-top: 12px;
+    padding-bottom: 10px;
+  }
+  .month {
+    font-size: 15px;
+  }
+  .number, .numberoct {
+    font-size: 21px;
+  }
+  .city, .scene {
+    font-size: 17px;
+  }
+  .view {
+    margin-top: 15px;
+    margin-bottom: 65px;
+  }
+  .view a:link {
+    font-size: 12px;
+  }
+  .titleob, .titlevol {
+    letter-spacing: 1px;
+  }
+  .titleob, .titlevol, .subtitlerp {
+    font-size: 17px;
+  }
+  .marg-query {
+    padding-left: 20px;
+  }
+  .subdate {
+    margin-bottom: 16px;
+    font-size: 12px;
+  }
+  .messageob {
+    margin-right: 10px;
+    font-size: 15px;
+  }
+  .contenentrs {
+    padding-top: 30px;
+    padding-bottom: 70px;
+  }
+  .icon-rs {
+    margin-right: 24px;
+    font-size: 20px;
+  }
+  .titlefooter {
+    font-size: 14px;
+    margin-top: 45px;
+  }
+  .contenentob {
+    padding-bottom: 70px;
+  }
+  .content-article {
+    padding-top: 135px;
+    padding-bottom: 135px;
+  }
+  .title-article {
+    font-size: 32px;
+  }
+  .articles, .articles:hover, .articles:visited {
+    font-size: 27px;
+  }
+}
+/*----#screen_1280x800------------------------------------------------------------------------------------*/
+@media (min-width: 1251px) and (max-width:1300px) {
+  .menus {
+    margin-top: 75px;
+    margin-left: 7px;
+  }
+  .navbar-nav li a {
+    margin-left: 6px;
+    font-size: 12px;
+  }
+  .title {
+    top: 155px;
+    font-size: 445%;
+  }
+  .subtitle {
+    top: 150px;
+    font-size: 125%;
+  }
+  .titlevid {
+    font-size: 20px;
+  }
+  .titleallvid {
+    margin-right: 7px;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  .subtitlevid {
+    font-size: 16px;
+  }
+  .like {
+    width: 32.2%;
+  }
+  .big {
+    width: 34.7%;
+  }
+  .waiting {
+    width: 32.2%;
   }
   .col-md-1 {
     width: 13%;
@@ -514,7 +1328,114 @@ ul {
     font-size: 17px;
   }
   .view {
-    margin-top: 5px;
+    margin-top: 15px;
+    margin-bottom: 65px;
+  }
+  .view a:link {
+    font-size: 12px;
+  }
+  .titleob, .titlevol {
+    letter-spacing: 1px;
+  }
+  .titleob, .titlevol, .subtitlerp {
+    font-size: 17px;
+  }
+  .marg-query {
+    padding-left: 10px;
+  }
+  .subdate {
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+  .messageob {
+    margin-right: 26px;
+    font-size: 15px;
+  }
+  .contenentrs {
+    padding-top: 30px;
+    padding-bottom: 70px;
+  }
+  .icon-rs {
+    margin-right: 24px;
+    font-size: 20px;
+  }
+  .titlefooter {
+    font-size: 14px;
+    margin-top: 45px;
+  }
+  .contenentob {
+    padding-bottom: 70px;
+  }
+  .content-article {
+    padding-top: 135px;
+    padding-bottom: 135px;
+  }
+  .title-article {
+    font-size: 32px;
+  }
+  .articles, .articles:hover, .articles:visited {
+    font-size: 27px;
+  }
+}
+/*----#screen_1366x768----------------------------------------------------------------------------------------------*/
+@media (min-width: 1301px) and (max-width:1367px) {
+  .menus {
+    margin-top: 75px;
+    margin-left: 7px;
+  }
+  .navbar-nav li a {
+    margin-left: 6px;
+    font-size: 12px;
+  }
+  .title {
+    top: 155px;
+    font-size: 445%;
+  }
+  .subtitle {
+    top: 150px;
+    font-size: 125%;
+  }
+  .titlevid {
+    font-size: 20px;
+  }
+  .titleallvid {
+    margin-right: 7px;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  .subtitlevid {
+    font-size: 16px;
+  }
+  .like {
+    width: 32.4%;
+  }
+  .big {
+    width: 34.7%;
+  }
+  .waiting {
+    width: 32.3%;
+  }
+  .col-md-1 {
+    width: 13%;
+  }
+  .titregig {
+    font-size: 20px;
+  }
+  .contenugig {
+    padding-top: 12px;
+    padding-bottom: 10px;
+  }
+  .month {
+    font-size: 15px;
+  }
+  .number, .numberoct {
+    font-size: 21px;
+  }
+  .city, .scene {
+    font-size: 17px;
+  }
+  .view {
+    margin-top: 15px;
     margin-bottom: 65px;
   }
   .view a:link {
@@ -542,7 +1463,6 @@ ul {
     padding-bottom: 70px;
   }
   .icon-rs {
-    left: 330px;
     margin-right: 24px;
     font-size: 20px;
   }
@@ -562,5 +1482,153 @@ ul {
   }
   .articles, .articles:hover, .articles:visited {
     font-size: 27px;
+  }
+}
+/*----#screen_1600x900--------------------------------------------------------------------------------------------------------------*/
+@media (min-width: 1368px) and (max-width:1612px) {
+  .menus {
+    margin-top: 95px;
+    margin-left: 0;
+  }
+  .navbar-nav li a {
+    margin-left: 12px;
+    font-size: 15px;
+  }
+  .title {
+    top: 190px;
+  	font-size: 540%;
+  }
+  .subtitle {
+    top: 190px;
+    font-size: 140%;
+  }
+  .titlevid {
+    font-size: 21px;
+  }
+  .titleallvid {
+    margin-right: 10px;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  .subtitlevid {
+    font-size: 17px;
+  }
+  .like {
+    width: 32.3%;
+  }
+  .big {
+    width: 34.3%;
+  }
+  .waiting {
+    width: 32.3%;
+  }
+  .col-md-1 {
+    width: 12%;
+  }
+  .titregig {
+    font-size: 21px;
+  }
+  .contenugig {
+    padding-top: 12px;
+    padding-bottom: 10px;
+  }
+  .month {
+    font-size: 15px;
+  }
+  .number, .numberoct {
+    font-size: 21px;
+  }
+  .city, .scene {
+    font-size: 21px;
+  }
+  .view {
+    margin-top: 15px;
+    margin-bottom: 65px;
+  }
+  .view a:link {
+    font-size: 14px;
+  }
+  .titleob, .titlevol {
+    letter-spacing: 1px;
+  }
+  .titleob, .titlevol, .subtitlerp {
+    font-size: 21px;
+  }
+  .marg-query {
+    padding-left: 20px;
+  }
+  .subdate {
+    margin-bottom: 32px;
+    font-size: 14px;
+  }
+  .messageob {
+    margin-right: 7px;
+    font-size: 20px;
+  }
+  .contenentrs {
+    padding-top: 30px;
+    padding-bottom: 70px;
+  }
+  .icon-rs {
+    margin-right: 27px;
+    font-size: 25px;
+  }
+  .titlefooter {
+    font-size: 15px;
+    margin-top: 45px;
+  }
+  .contenentob {
+    padding-bottom: 70px;
+  }
+  .content-article {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  .title-article {
+    font-size: 32px;
+  }
+  .articles, .articles:hover, .articles:visited {
+    font-size: 27px;
+  }
+}
+/*----#screen_1920x1080-----------------------------------------------------------------------------------------------------------------------*/
+@media (min-width: 1912px) and (max-width:1932px) {
+  .menus {
+    margin-top: 130px;
+  }
+  .navbar-nav li a {
+    margin-left: 24px;
+  }
+  .title {
+    top: 232px;
+  	font-size: 677%;
+  }
+  .subtitle {
+    top: 225px;
+    font-size: 170%;
+  }
+  .titleallvid {
+    font-size: 15px;
+  }
+  .like {
+    width: 32.5%;
+  }
+  .big {
+    width: 34.1%;
+  }
+  .waiting {
+    width: 32.4%;
+  }
+  .messageob {
+    font-size: 22px;
+  }
+  .view {
+    margin-top: 15px;
+  }
+  .view a:link, .view a:visited {
+    font-size: 15px;
+  }
+  .icon-rs {
+    margin-right: 37px;
   }
 }
